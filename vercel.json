@@ -5,8 +5,8 @@
   },
   "rewrites": [
     {
-      "source": "https://plugins.codeit.codes/native-base/:path*",
-      "destination": "https://plugins.codeit.codes/:path*"
+      "source": "https://plugins.codeit.codes/native-base:path*",
+      "destination": "https://plugins.codeit.codes:path*"
     }
   ]
 }
