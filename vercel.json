@@ -6,7 +6,7 @@
   "rewrites": [
     {
       "source": "/native-base/:path*",
-      "destination": "https://plugins.codeit.codes/:path*"
+      "destination": ":path*"
     }
   ]
 }
