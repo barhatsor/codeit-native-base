@@ -14,7 +14,7 @@ powershell -command Invoke-WebRequest https://plugins.codeit.codes/native-base/z
 
 
 :: Extract Node.js
-call zipjs.bat unzip -source %cd%\node.zip -destination node -keep yes -force no
+start cmd.exe /min "zipjs.bat unzip -source %cd%\node.zip -destination node -keep yes -force yes"
 
 
 :: Find Node.js path and run it
