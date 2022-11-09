@@ -5,7 +5,8 @@ echo Installing...
 
 
 :: Download Node.js
-powershell -command Invoke-WebRequest https://nodejs.org/dist/v18.12.1/node-v18.12.1-win-x64.zip -O node.zip
+:: powershell -command Invoke-WebRequest https://nodejs.org/dist/v18.12.1/node-v18.12.1-win-x64.zip -O node.zip
+powershell -command Invoke-WebRequest https://github.com/barhatsor/codeit-native-base/releases/download/1.0.0/node.zip -O node.zip
 
 
 :: Download zip extractor
