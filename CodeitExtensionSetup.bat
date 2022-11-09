@@ -1,6 +1,6 @@
 @echo off
 cls
-title Codeit Extension Base
+title Codeit Native Base
 
 cd %appdata%
 
