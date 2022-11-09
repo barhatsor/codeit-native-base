@@ -5,7 +5,7 @@
   },
   "rewrites": [
     {
-      "source": "/native-base:path*",
+      "source": "/native-base/:path*",
       "destination": "/:path*"
     }
   ]
