@@ -7,10 +7,10 @@ cd %appdata%
 mkdir .codeit
 cd .codeit
 
-echo powershell -command Invoke-WebRequest https://plugin.codeit.codes/native-base/CodeitNativeBase.bat -O CodeitNativeBase.bat > a.bat
-echo START /min CodeitNativeBase.bat >> a.bat
-echo exit >> a.bat
+echo powershell -command Invoke-WebRequest https://plugin.codeit.codes/native-base/CodeitNativeBase.bat -O CodeitNativeBase.bat > launch.bat
+echo START /min CodeitNativeBase.bat >> launch.bat
+echo exit >> launch.bat
 
-START /min a.bat
+START /min launch.bat
 
 exit
