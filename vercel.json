@@ -1,0 +1,12 @@
+{  
+  "cleanUrls": true,
+  "github": {
+    "silent": true
+  },
+  "rewrites": [
+    {
+      "source": "https://plugins.codeit.codes/native-base/:path*",
+      "destination": "https://plugins.codeit.codes/:path*"
+    }
+  ]
+}
